@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">W7_2</string>
+    <string-array name="cities_array">
+        <item>Istanbul</item>
+        <item>Ankara</item>
+        <item>Izmir</item>
+        <item>Antalya</item>
+        <item>Konya</item>
+        <item>Izmit</item>
+        <item>Kayseri</item>
+        <item>Antakya</item>
+    </string-array>
+</resources>
