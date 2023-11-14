@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/primeFragment">
+
+    <fragment
+        android:id="@+id/primeFragment"
+        android:name="com.example.w7_00.PrimeFragment"
+        android:label="fragment_prime"
+        tools:layout="@layout/fragment_prime" >
+        <action
+            android:id="@+id/action_primeFragment_to_secondaryFragment"
+            app:destination="@id/secondaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondaryFragment"
+        android:name="com.example.w7_00.SecondaryFragment"
+        android:label="fragment_secondary"
+        tools:layout="@layout/fragment_secondary" >
+        <action
+            android:id="@+id/action_secondaryFragment_to_primeFragment"
+            app:destination="@id/primeFragment" />
+        <argument
+            android:name="val"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+</navigation>
