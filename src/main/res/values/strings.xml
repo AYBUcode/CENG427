@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">w104</string>
+    <string name="activity1_name">SendObjFromActivity</string>
+    <string name="activity2_name">ReceiveObjActivity</string>
+    <string name="btn1_txt">Send object to another Activity</string>
+    <string name="imv1_desc">Image</string>
+</resources>
